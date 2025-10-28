@@ -1,17 +1,11 @@
-# PDV de Restaurante (Java)
-apresentação técnica.
+Exercícios POO em Java
 
-> PDV desktop focado em operações de restaurante: mesas/comandas, pedidos, impressão de cupom e relatórios.
+pacote didático de POO e lógica.
 
-## Principais recursos
-- Mesas/comandas, pedidos, categorias e itens.
-- Caixa: abertura/fechamento, totalização e histórico.
-- Impressão de cupom (ESC/POS) e relatórios (diário/por período).
-- Backoffice básico: cadastro de produtos, preços e usuários.
-- Banco: Derby (embedded) e compatibilidade com MySQL/PostgreSQL.
+Conjunto de exercícios console (POO): manipulação de textos, contagem/tempo de leitura, filtros e mini-catálogo.
 
-## Arquitetura 
-- Linguagem/UI: Java (Swing).
-- Persistência: ORM/JDBC.
-- Relatórios: JasperReports.
-- Impressão: ESC/POS (raw print/driver).
+Conteúdo
+
+Texto/Frase: substituição, contagem de palavras, tempo estimado de leitura, filtro e seleção aleatória.
+
+Catálogo de Mídia: entidades simples (Filme/Serie/Tema/Artista) com filtros encadeados e união de resultados.
