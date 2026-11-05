@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p build/classes
-          javac -encoding UTF-8 -d build/classes Exercicios_POO_em_Java/AD1_POO_2022_1.java Exercicios_POO_em_Java/APx2_2022_1_Q1.java
+          javac -encoding UTF-8 -d build/classes Exercicios_POO_em_Java/AD1_POO_2022_1.java Exercicios_POO_em_Java/APx2_2022_1_Q1.java Exercicios_POO_em_Java/AutofixFailureProbe.java
       - name: Verify entry points
         shell: bash
         run: |
